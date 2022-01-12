@@ -5,11 +5,11 @@ import Header from "../global/Header";
 import Footer from "../global/Footer";
 
 
-const DetallesComponentes = (props) =>{
+const DetallesComponentes = (eventos) =>{
     return(<>
         <Header></Header>
         <NavDetalles></NavDetalles>
-        <MainDetalles id ={props.match.params.id}></MainDetalles>
+        <MainDetalles id ={eventos.match.params.id}></MainDetalles>
         <Footer></Footer>
         </>
     )
