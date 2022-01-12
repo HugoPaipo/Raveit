@@ -1,0 +1,204 @@
+{"Eventos": [{
+                "id":1,
+                "nombre":"WARP",
+                "fecha":"27/09/2021",
+                "lugar":"Montevideo",
+                "hora":"23:00",
+                "genero":"Techno",
+                "img":"/imagenes/evento1.jpg"
+                },
+
+                {
+                "id":2,
+                "nombre":"EVENTO 2",
+                "fecha":"18/12/2021",
+                "lugar":"Maldonado",
+                "hora":"16:00",
+                "genero":"Techno",
+                "img":"/imagenes/evento 2.jpg" 
+                },
+
+                {
+                "id":3,
+                "nombre":"EVENTO 3",
+                "fecha":"18/09/2021",
+                "lugar":"Maldonado",
+                "hora":"00:00",
+                "genero":"Tech house",
+                "img":"/imagenes/evento 3.jpg"},  
+             
+                {
+                "id":4,
+                "nombre":"EVENTO 4",
+                "fecha":"8/10/2021",
+                "lugar":"Canelones",
+                "hora":"16:00",
+                "genero":"Techno",
+                "img":"/imagenes/evento 4.jpg"
+                },
+       
+  
+                {
+                "id":5,
+                "nombre":"EVENTO 5",
+                "fecha":"15/10/2021",
+                "lugar":"Montevideo",
+                "hora":"23:00",
+                "genero":"Tech house",
+                "img":"/imagenes/evento 5.jpg"
+                },
+
+                {
+                "id":6,
+                "nombre":"EVENTO 6",
+                "fecha":"19/11/2021",
+                "lugar":"Montevideo",
+                "hora":"00:00",
+                "genero":"Techno",
+                "img":"/imagenes/evento 6.jpg"
+                },
+ 
+                {
+                "id":7,
+                "nombre":"EVENTO 7",
+                "fecha":"15/02/2022",
+                "lugar":"Paysandu",
+                "hora":"18:00",
+                "genero":"Otros",
+                "img":"/imagenes/evento 7.jpg"
+                },
+                {
+                "id":8,
+                "nombre":"EVENTO 8",
+                "fecha":"18/03/2022",
+                "lugar":"Artigas",
+                "hora":"21:00",
+                "genero":"Psytrance",
+                "img":"/imagenes/evento 8.jpg"
+                 }
+    
+      
+],
+
+
+"Detalles": [{
+              "id":1,
+              "img": "/imagenes/evento1.jpg",
+              "nombre": "WARP",
+              "fecha":"27/09/2021",
+              "lugar":"Montevideo",
+              "hora":"Comienzo: 23:00, Finaliza: 06:00",
+              "genero":"Techno",
+              "ubicacion":"Plaza Juan, calle nombre1, calle nombre2",
+              "accesos":"$150, En Puerta",
+              "contacto":"warpinstagram , mail",
+              "organiza":"Warp",
+              "djs": "Cryz instagramaca, Scrincher instagramaca",
+              "descripcion":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."  
+              },
+              {"id":2,
+              "img":"/imagenes/evento 2.jpg",  
+              "nombre":"EVENTO 2", 
+              "fecha":"26/09/2021",
+              "lugar":"Maldonado",
+              "hora":"23:00",
+              "genero":"Techno",
+              "ubicacion":"lugarx",
+              "accesos":"100",
+              "contacto":"insta",
+              "organiza":"organizax",
+              "djs":" djx1 ,djx2 ",
+              "descripcion": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."  
+             },
+             { "id":3,
+              "img":"/imagenes/evento 3.jpg",  
+              "nombre": "EVENTO 3",
+              "fecha":"6/10/2021",
+              "lugar":"Maldonado",
+              "hora":"00:00",
+              "genero":"Tech house",
+              "ubicacion":"lugarx",
+              "accesos":"100",
+              "contacto":"insta",
+              "organiza":"organizaX",
+              "djs":"dj1,dj2",
+              "descripcion":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi." 
+              },
+              {
+                "id":"4",
+                "img":"/imagenes/evento 4.jpg",  
+                "nombre": "EVENTO 4",
+                "fecha":"7/10/2021",
+                "lugar":"Canelones",
+                "hora":"23:30",
+                "genero":"Techno",
+                "ubicacion":"lugarx",
+                "accesos":"100",
+                "contacto":"insta",
+                "organiza":"organizadorx",
+                "djs":"dj1, dj2",
+                "descripcion":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."  
+                }, 
+                {
+                "id":"5",
+                "img":"/imagenes/evento 5.jpg",  
+                "nombre":"EVENTO 5",
+                "fecha":"16/10/2021",
+                "lugar":"Montevideo",
+                "hora":"23:00",
+                "genero":"Tech house",
+                "ubicacion":"lugarx",
+                "accesos":"100",
+                "contacto":"insta",
+                "organiza":"organizadorx",
+                "djs":"dj1, dj2",
+                "descripcion":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."  
+                },
+                {
+                "id":6,
+                "img":"/imagenes/evento 6.jpg",  
+                "nombre":"EVENTO 6",
+                "fecha":"27/10/2021",
+                "lugar":"Montevideo",
+                "hora":"00:00",
+                "genero":"Techno",
+                "ubicacion":"lugarx",
+                "accesos":"100",
+                "contacto":"insta",
+                "organiza":"organizadorx",
+                "djs":"dj1, dj2",
+                "descripcion":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."  
+                },
+                {
+                "id":7,
+                "img":"/imagenes/evento 7.jpg",  
+                "nombre": "EVENTO 7",
+                "fecha":"15/02/2022",
+                "lugar":"Paysandu",
+                "hora":"18:00",
+                "genero":"Otros",
+                "ubicacion":"lugarx",
+                "accesos":"100",
+                "contacto":"insta",
+                "organiza":"organizadorx",
+                "djs":"dj1, dj2",
+                "descripcion":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."  
+                },
+                {
+                "id":8,
+                "img":"/imagenes/evento 8.jpg",  
+                "nombre":"EVENTO 8",
+                "fecha":"18/03/2022",
+                "lugar":"Artigas",
+                "hora":"21:00",
+                "genero":"Psytrance",
+                "ubicacion":"lugarx",
+                "accesos":"100",
+                "contacto":"insta",
+                "organiza":"organizadorx",
+                "djs":"dj1, dj2",
+                "descripcion":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."  
+                }
+
+        ]
+}
