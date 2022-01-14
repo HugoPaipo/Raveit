@@ -7,14 +7,14 @@ import React, { useEffect, useState } from 'react';
 
 const MainDetalles = ({id}) =>{
 
-const [evento, setDetalles] = useState ([])
+const [detalles, setDetalles] = useState ([])
 
     
 
     useEffect ( ()=>{
     fetch('http://localhost:8080/eventos?id='+id)
-      .then((data) => data.json())
-      .then(data => {
+        .then((data) => data.json())
+        .then(data => {
            setDetalles(data)})
            
         .catch (error  => console.log(error))
@@ -31,12 +31,12 @@ const [evento, setDetalles] = useState ([])
     <aside className="aside2">
         <div></div>
     </aside>{
-        evento.length>0 &&
-            <DetallesRender evento={evento[0]} >
+        detalles.length>0 &&
+            <DetallesRender detalles={detalles[id-1]} >
           
         </DetallesRender>
     }
-  {console.log(evento)}  
+  
    
         
         

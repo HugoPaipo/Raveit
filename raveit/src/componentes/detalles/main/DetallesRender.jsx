@@ -1,57 +1,57 @@
 import React from "react";
 
 
-const DetallesRender = ({evento}) => {
+const DetallesRender = ({detalles}) => {
 
 
   return (
-    <div className="detallescontenedor" key={evento.id}>
+    <div className="detallescontenedor" key={detalles.id}>
       <div className="peflyer">
-        <img className="flyer" src={evento.img} alt={evento.nombre} />
+        <img className="flyer" src={detalles.img} alt={detalles.nombre} />
       </div>
 
       <div className="peinfo">
-        <h4 className="petitle">{evento.nombre}</h4>
+        <h4 className="petitle">{detalles.nombre}</h4>
 
         <ul>
           <li>
             <b>Fecha:</b>
-            {evento.fecha}
+            {detalles.fecha}
           </li>
 
           <li>
-            <b>Lugar:</b> {evento.lugar}
+            <b>Lugar:</b> {detalles.lugar}
           </li>
 
           <li>
-            <b>Hora:</b> {evento.hora}
+            <b>Hora:</b> {detalles.hora}
           </li>
 
           <li>
-            <b>Género:</b> {evento.genero}
+            <b>Género:</b> {detalles.genero}
           </li>
         </ul>
       </div>
       <div className="peinfo2">
         <ul>
           <li>
-            <b>Ubicación:</b> {evento.ubicacion}
+            <b>Ubicación:</b> {detalles.ubicacion}
           </li>
 
           <li>
-            <b>Accesos:</b> {evento.accesos}
+            <b>Accesos:</b> {detalles.accesos}
           </li>
 
           <li>
-            <b>Contacto:</b> {evento.contacto}
+            <b>Contacto:</b> {detalles.contacto}
           </li>
 
           <li>
-            <b>Organiza:</b> {evento.organiza}
+            <b>Organiza:</b> {detalles.organiza}
           </li>
 
           <li>
-            <b>Djs:</b> {evento.djs}
+            <b>Djs:</b> {detalles.djs}
           </li>
         </ul>
       </div>
@@ -60,7 +60,7 @@ const DetallesRender = ({evento}) => {
           <b>Descripcion:</b>
         </span>
         <p>
-            {evento.descripcion}
+            {detalles.descripcion}
         </p>
       </div>
     </div>
