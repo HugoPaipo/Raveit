@@ -47,7 +47,42 @@ aside{display:none;}
     border-width: 1px;} 
 
 .copyr{font-size: 10px;
-    }    
+    }
+.formulario{width:100% ;
+  height: 100vh;
+  display : flex;
+  justify-content:space-around ;
+  background: rgb(14, 214, 64);
+  background: linear-gradient(
+    311deg,
+    rgba(14, 214, 64, 1) 5%,
+    rgba(5, 79, 24, 1) 32%,
+    rgba(0, 0, 0, 1) 44%,
+    rgba(0, 0, 0, 1) 68%,
+    rgba(14, 214, 64, 1) 94%
+  );} 
+
+.form{display :flex;
+  flex-direction: column;
+  gap:5px;
+  width: 80%;
+}
+
+form input{background-color: black;
+  color:rgba(14, 214, 64, 1);
+  border-color:rgba(14, 214, 64, 1);;
+}
+form input:focus{background-color:black;
+}
+form button{width: 88px;
+  background-color: black;
+  color: rgba(14, 214, 64, 1);
+  border-style: solid;
+  border-color: rgba(14, 214, 64, 1);
+  padding: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;}
 
 @media (min-width:1260px ) {
 

@@ -86,9 +86,11 @@ h3 {
 }
 
 @media (min-width: 1260px) {
+
   .indeximg {
     background-image: url("../imagenes/raveitHD.png");
     height: 720px;
+    
   }
 
   .indeximg button {

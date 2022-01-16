@@ -23,7 +23,7 @@ export const Formulario =() => {
 
     return(
         <div className="formulario" >
-            <form method="POST" action='http://localhost:8080/eventos' encType="application/json">
+            <form className="form" method="POST" action='http://localhost:8080/eventos' encType="application/json">
                 <input className="nombre" 
                     type="text" id="formnombre" placeholder="NOMBRE" name="nombre"
                     onChange={e => setNombre (e.target.value)} value={nombre} required
@@ -100,7 +100,7 @@ export const Formulario =() => {
                     type="text" id="formdescripcion" placeholder="DESCRIPCION" name="description"
                     onChange={e => setDescripcion (e.target.value)} value={descripcion}required
                     />
-                <button type="submit" value="Submit">Submit</button>
+                <button type="submit" value="Submit">Agregar</button>
 
             </form>
           
