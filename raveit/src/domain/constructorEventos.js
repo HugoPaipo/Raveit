@@ -1,5 +1,5 @@
 export class Evento {
-    constructor(id, nombre, fecha, lugar, hora, genero,img,ubicaccion,accesos,contacto,organiza,djs,descripcion) {
+    constructor(id, nombre, fecha, lugar, hora, genero,img,ubicacion,accesos,contacto,organiza,djs,descripcion) {
         this.id = id;
         this.nombre = nombre;
         this.fecha = fecha;
@@ -7,7 +7,7 @@ export class Evento {
         this.hora = hora;
         this.genero = genero;
         this.img = img;
-        this.ubicaccion = ubicaccion ;
+        this.ubicacion = ubicacion ;
         this.accesos = accesos;
         this.contacto = contacto ;
         this.organiza = organiza;

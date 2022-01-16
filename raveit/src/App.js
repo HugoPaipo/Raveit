@@ -8,7 +8,7 @@ import EventosComponentes from './componentes/eventos/eventos';
 import DetallesComponentes from './componentes/detalles/detalles';
 import {BrowserRouter as Router,Route,Switch,} from 'react-router-dom';
 import React from 'react';
-
+import { Formulario } from './componentes/global/Formulario';
 function App() {
   return (
           <Router>
@@ -25,6 +25,10 @@ function App() {
               </Route>
               <Route path="/detalles/:id" exact render={props => <DetallesComponentes {...props}></DetallesComponentes>}> 
                
+             </Route> 
+
+             <Route path="/agregar"exact>
+                <Formulario></Formulario>
              </Route> 
              </Switch>
         </div>
