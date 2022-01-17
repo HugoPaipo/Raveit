@@ -23,7 +23,7 @@ body {width:auto;
           text-decoration: none;
          }        
                     
-header {
+.headerglobal {
   background-image:url("../imagenes/raveitHD.png");
       background-repeat: no-repeat;
       background-size: 100% 100%;
@@ -38,6 +38,7 @@ aside{display:none;}
     height: 65px;
     display:flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     border-color:rgba(14,214,64,1);
     border-style:ridge;
@@ -82,7 +83,12 @@ form button{width: 88px;
   padding: 5px;
   font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
-  justify-content: center;}
+  justify-content: center;
+}
+.agregarevento{text-decoration: none;
+border-style:double;
+border-color: white;
+color: white;}
 
 @media (min-width:1260px ) {
 
@@ -93,8 +99,9 @@ form button{width: 88px;
   text-align: center;}
 
 
-header{background-image:url("../imagenes/raveitHD.png");
-         height: 720px;}
+.headerglobal{
+  background-image:url("../imagenes/raveitHD.png");
+  height: 720px;}
 aside{display: block;}
 
 .copyr{font-size: 15px; }
@@ -112,7 +119,7 @@ aside{display: block;}
   width:85px ;
   font-size:25px ;}
 
-header{background-image:url("../imagenes/raveitFULLHD.png");
+.headerglobal{background-image:url("../imagenes/raveitFULLHD.png");
          height: 1090px;}
 aside{display: block;}
 
