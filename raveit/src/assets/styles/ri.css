@@ -85,6 +85,20 @@ form button{width: 88px;
   display: flex;
   justify-content: center;
 }
+
+.volverform{
+  width: 70px;
+  height: 29px;
+  text-decoration: none;
+  background-color: black;
+  color: rgba(14, 214, 64, 1);
+  border-style: solid;
+  border-color: rgba(14, 214, 64, 1);
+  padding: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;}
+
 .agregarevento{text-decoration: none;
 border-style:double;
 border-color: white;

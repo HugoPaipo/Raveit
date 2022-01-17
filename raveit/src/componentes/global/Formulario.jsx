@@ -1,6 +1,6 @@
 import React from "react";
 import  { useState } from "react";
-
+import { Link } from "react-router-dom";
 
 export const Formulario =() => {
 
@@ -103,7 +103,8 @@ export const Formulario =() => {
                 <button type="submit" value="Submit">Agregar</button>
 
             </form>
+            <Link role="button" className="volverform" to={"/eventos"}>Volver</Link>
           
-            </div>) 
+        </div>) 
              }  
 
