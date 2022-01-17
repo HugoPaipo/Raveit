@@ -97,7 +97,7 @@ export const Formulario =() => {
 
             
                 <input className="descripcion" 
-                    type="text" id="formdescripcion" placeholder="DESCRIPCION" name="description"
+                    type="text" id="formdescripcion" placeholder="DESCRIPCION" name="descripcion"
                     onChange={e => setDescripcion (e.target.value)} value={descripcion}required
                     />
                 <button type="submit" value="Submit">Agregar</button>
