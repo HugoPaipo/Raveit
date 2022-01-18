@@ -8,15 +8,8 @@ const app = express();
 const routes = require('./routes/routes');
 
 
-
-
-
-
-//middlewares  -- metodo que se ejecuta antes de que llegue a un controlador 
 app.use(bodyParser.urlencoded({extended: false}));
-app.use(bodyParser.json()); //Cuando reciba algun tipo de dato en un peticion la convierto en json, en cada petion
-
-//cors, configurar cabeceras http
+app.use(bodyParser.json()); 
 app.use(cors());
 
 app.get('/healt',async(req,res)=>{

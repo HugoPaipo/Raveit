@@ -68,4 +68,4 @@ const DetallesRender = ({detalles}) => {
 };
 
 export default DetallesRender;
-//width="120px" height="190px"
+

@@ -15,38 +15,38 @@ Eventos.init({
   },
   fecha: {
     type: DataTypes.STRING
-},
+  },
   lugar: { 
        type: DataTypes.STRING
       
   },
   hora: {
     type: DataTypes.STRING
-},
+  },
   genero: {
     type: DataTypes.STRING
-},
+  },
   img: {
     type: DataTypes.STRING
-},
-ubicacion: {
+  },
+  ubicacion: {
   type: DataTypes.STRING
-},
-accesos: {
+  },
+  accesos: {
   type: DataTypes.STRING
-},
-contacto: {
+  },
+  contacto: {
   type: DataTypes.STRING
-},
-organiza: {
+  },
+  organiza: {
   type: DataTypes.STRING
-},
-djs: {
+  },
+  djs: {
   type: DataTypes.STRING
-},
-descripcion: {
+  },
+  descripcion: {
   type: DataTypes.STRING
-},
+  },
 },
  {
   
